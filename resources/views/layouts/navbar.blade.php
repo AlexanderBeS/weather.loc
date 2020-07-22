@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <a class="navbar-brand" href="/">MyResume.loc</a>
+    <a class="navbar-brand" href="/">Погода онлайн</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,8 +18,7 @@
     <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{">Мои резюме</a>
-                <a class="dropdown-item" href="">Создать резюме</a>
+                <a class="dropdown-item" href="/getweather">Погода в Днепре</a>
             </div>
         </li>
     </ul>

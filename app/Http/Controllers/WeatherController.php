@@ -18,8 +18,10 @@ class WeatherController extends Controller
     {
 
         $weather = $this->openWeatherApiService->getCurrentWeatherByCity('Dnipro');
+
+        //dd($weather);
         //return view('weather/region');
-        return view('weather/current', compact($weather));
+        return view('weather/current', compact('weather'));
     }
 
     public function sendWeather()

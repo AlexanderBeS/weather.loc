@@ -16,5 +16,5 @@ interface OpenWeatherApiServiceInterface
      * @return array
      *
      */
-    public function getWeatherByCity(string $city): array;
+    public function getCurrentWeatherByCity(string $city): array;
 }
