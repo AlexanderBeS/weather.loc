@@ -19,5 +19,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/place', 'WeatherController@getWeather');
+Route::get('/getweather', 'WeatherController@getWeather');
 
